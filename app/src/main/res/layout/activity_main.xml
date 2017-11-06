@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kovacszoltan.a1026.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView_hearth2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/heart2"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/button_plus"
+        android:layout_toStartOf="@+id/button_plus" />
+
+    <ImageView
+        android:id="@+id/imageView_hearth1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/heart2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:id="@+id/imageView_hearth3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/heart2"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button_plus"
+        android:layout_alignEnd="@+id/button_plus" />
+    <ImageView
+        android:id="@+id/imageView_hearth4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/heart2"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageView_hearth5"
+        android:layout_toStartOf="@+id/imageView_hearth5"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+    <ImageView
+        android:id="@+id/imageView_hearth5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/heart2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"
+        android:text="Találd ki a számod"
+        android:layout_below="@+id/imageView_hearth2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:textSize="25dp"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/button_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="49dp"
+        android:text="-"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button_plus"
+        android:layout_alignStart="@+id/button_plus" />
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Küldés"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView_szam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="0"
+        android:layout_above="@+id/button_minus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp" />
+
+</RelativeLayout>
